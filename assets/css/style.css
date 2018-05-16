@@ -221,9 +221,45 @@ CONTACT ~ CONTACT.HTML
 
 ===========================================
 */
+form {
+	display: grid;
+	margin: 20px;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+input, textarea {
+	margin-bottom: 20px;
+}
+
+input {
+	height: 30px;
+}
+
+textarea {
+	height: 150px;
+}
 
 #message {
-	resize: both;
+	resize: vertical;
+}
+
+#submit {
+	width: 125px;
+	height: 40px;
+	background: #4aaaa5;
+	padding: 10px;
+	color: #ffffff;
+	border: none;
+	font-size: 14px;
+}
+
+#submit:hover {
+	box-shadow: 2px 2px 3px rgba(73,170,165,.5);
+	transform: translateY(2px);
+	cursor: pointer;
 }
 
 
